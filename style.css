@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorgroud1: #D81159;
+    --colorgroud2: #8F2D56;
+    --colortitle: #FFBC42;
+
+}
+body{
+    max-width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    background-image: linear-gradient( to top, #D81159, #8F2D56 );
+}
+.box{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    max-width: 450px;
+    min-width: 250px;
+    height: 590px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.371);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--colorgroud1);
+}
+form > div{
+    max-width: 450px;
+    min-width: 250px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin: auto;
+    font-family:'Fredoka', sans-serif;
+    font-weight: 400; 
+}
+.input-text{
+    width: 400px;
+    height: 28px;
+    background-color: rgba(220, 220, 220, 0.391);
+    border: none;
+    outline: none;
+}
+
+.input-content{
+    height: 28px;
+    background-color: rgba(220, 220, 220, 0.391);
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.div-gender{
+    padding-bottom: 30px;
+}
+.div-gender > p{
+    padding-bottom: 10px;
+}
+.div-gender > input{
+    margin-left: 10px;
+}
+.button{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    font-family:'Fredoka', sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #D81159, #8F2D56);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.button:hover{
+    background-image: linear-gradient(to left, #D81159, #8F2D56);
+    transition: 3s;
+}
+#box-button{
+    padding: 10px 20px 10px 175px  ;
+}
